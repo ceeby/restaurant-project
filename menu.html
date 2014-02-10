@@ -1,0 +1,105 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MENU | Smiley Cakes! Eat 'dems!</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/myStyles.css" />
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="/js/vendor/fastclick.js"></script>
+  </head>
+  <body>
+    
+   <!-- Header and Nav -->
+ 
+  <div class="row">
+    <div class="large-3 columns">
+      <h1><img src="img/logo.png"></h1>
+    </div>
+    <div class="large-9 columns">
+      <ul class="button-group right">
+        <li><a href="index.html" class="button">homes</a></li>
+        <li><a href="menu.html" class="button">eat 'dems</a></li>
+        <li><a href="about.html" class="button">abouts</a></li>
+        <li><a href="contact.html" class="button">contacts</a></li>
+      </ul>
+    </div>
+  </div>
+ 
+  <!-- End Header and Nav -->
+ 
+ <div class="row">
+<div class="large-12 columns">
+     <br/>
+    <br/>
+ <h1>Menu</h1>
+    <br/>
+<dl class="radius tabs" data-tab>
+  <dd class="active"><a href="#panel1">Breakfast</a></dd>
+  <dd><a href="#panel2">Lunch</a></dd>
+  <dd><a href="#panel3">Dinner</a></dd>
+  <dd><a href="#panel4">Late Night</a></dd>
+</dl>
+<div class="tabs-content">
+  <div class="content active" id="panel1">
+    <p>This is our breakfast menu.</p>
+  </div>
+  <div class="content" id="panel2">
+    <p>This is our lunch menu.</p>
+  </div>
+  <div class="content" id="panel3">
+    <p>This is our dinner menu.</p>
+  </div>
+  <div class="content" id="panel4">
+    <p>This is our once in a while late night pancake all you can eat.</p>
+  </div>
+</div>
+</div>
+
+</div>
+</div>
+ 
+ 
+  <!-- Footer -->
+ 
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-6 columns">
+          <p>© Copyright 2014 smiley cakes</p>
+        </div>
+        <div class="large-6 columns">
+          <ul class="inline-list right">
+            <li><a href="index.html">homes</a></li>
+            <li><a href="menu.html">eat 'dems</a></li>
+            <li><a href="about.html">abouts</a></li>
+            <li><a href="contact.html">contacts</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation/foundation.js"></script>
+<script src="js/foundation/foundation.orbit.js"></script>
+
+<script>
+  $(document).foundation({
+    tab: {
+      callback : function (tab) {
+        console.log(tab);
+      }
+    }
+  });
+</script>
+
+<script>
+  $(document).foundation();
+</script>
+
+  </body>
+</html>
